@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<title>CODING PARTY!</title>
+
+		<script src="jquery-1.7.1.min.js"></script>
+		<script src="jquery.textarea.js"></script>
+		<link rel="stylesheet" type="text/css" href="v2.00.css"></link>
+	</head>
+	<body>
+		<header>CODING PARTY!</header>
+
+		<div id="users" comment="HTML5 的には div タグではなくて section タグが本来なんだけど、IE9 が section タグをうまくハンドルしてくれないので、、、">
+			<form id="form">
+				<label for="username">username:</label>
+				<input type="text" name="username" id="username" size="20" />
+				<input type="button" value="connect" id="connect" disabled />
+				<input type="button" value="disconnect" id="disconnect" disabled />
+				/
+				<label for="hide">hide others:</label>
+				<input type="checkbox" value="hide" id="hide" checked />
+				<p>
+					Warning: Do NOT "press F5" nor "reload"　nor "go back". These operations will blow away your message.
+				</p>
+				<hr />
+				<textarea name="message" id="message" cols="79" rows="20" readonly></textarea>
+			</form>
+		</div>
+
+		<hr />
+		<div id="someones" comment="HTML5 的には div タグではなくて section タグが本来なんだけど、IE9 が section タグをうまくハンドルしてくれないので、、、">
+			<div>
+				<h3 id="someonesLabel"></h3>
+				<textarea name="message" id="someonesMessage" cols="79" rows="20" readonly></textarea>
+			</div>
+		</div>
+
+		<hr />
+		<div id="others" comment="HTML5 的には div タグではなくて section タグが本来なんだけど、IE9 が section タグをうまくハンドルしてくれないので、、、"></div>
+
+		<footer>v2.00</footer>
+
+		<script type="text/javascript" src="v2.00.js"></script>
+	</body>
+</html>

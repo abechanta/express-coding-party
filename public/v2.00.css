@@ -1,0 +1,93 @@
+html {
+	font-family: consolas;
+}
+
+header {
+	color: #fff;
+	font-size: 2.0em;
+	font-family: consolas;
+	background-color: #888;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0%, #666),
+		color-stop(40%, #888),
+		color-stop(60%, #666),
+		color-stop(100%, #222)
+	);
+	border-radius: 10px 0px 10px 0px;
+	padding: 0.2em 1.0em 0.2em 1.0em;
+}
+
+footer {
+	color: #fff;
+	font-size: 1.0em;
+	font-family: consolas;
+	text-align: right;
+	background-color: #888;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0%, #666),
+		color-stop(40%, #888),
+		color-stop(60%, #666),
+		color-stop(100%, #222)
+	);
+	border-radius: 10px 0px 10px 0px;
+	padding: 0.2em 1.0em 0.2em 1.0em;
+}
+
+h3 {
+	color: #fff;
+	background-color: #ccc;
+	border-radius: 10px 10px 0px 0px;
+	padding: 0.2em 2.0em 0.2em 2.0em;
+	margin: 0.0em 0.0em 0.0em 0.0em;
+	display: table-caption;
+	opacity: 0.80;
+}
+
+#others h3:hover {
+	background-color: #88f;
+}
+
+input {
+	border-radius: 1.0em;
+}
+
+textarea {
+	resize: initial;
+	border-raduis: 0em;
+	background-color: #fff;
+	font-size: 1.3em;
+	font-family: consolas;
+	text-decoration: none;
+}
+
+#users textarea {
+}
+
+#someones textarea {
+	background-color: #ccc;
+}
+
+#others textarea {
+	background-color: #eee;
+	font-size: 0.5em;
+}
+
+#someones {
+	display: none;
+}
+
+#others {
+	width: 100%;
+}
+
+#others div {
+	position: relative;
+	overflow: hidden;
+	margin: 1.0em 0.0em 1.0em 0.0em;
+}
